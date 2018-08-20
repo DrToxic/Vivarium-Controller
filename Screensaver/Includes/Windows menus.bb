@@ -6,7 +6,7 @@ EndIf
 
 
 ;Create the window
-mainWindow = CreateWindow ("Blank app", ClientWidth(Desktop())/2-Width/2, ClientHeight(Desktop())/2-Width/2, Width, Height+29, 0, 1)
+mainWindow = CreateWindow ("Vivarium Controller", ClientWidth(Desktop())/2-Width/2, ClientHeight(Desktop())/2-Width/2, Width+6, Height+29, 0, 1)
 
 mainCanvas = CreateCanvas (0,0,Width,Height,mainWindow)
 	SetBuffer(CanvasBuffer(mainCanvas))
